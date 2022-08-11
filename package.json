@@ -1,0 +1,41 @@
+{
+  "name": "koajs-template-service",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/achie9x/koajs-template-service.git"
+  },
+  "author": "hieunt1 <hieunt1@meeyland.com>",
+  "license": "UNLICENSED",
+  "private": true,
+  "description": "",
+  "bugs": {
+    "url": "https://github.com/achie9x/koajs-template-service/issues"
+  },
+  "homepage": "https://github.com/achie9x/koajs-template-service#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:api": "nodemon apps/api"
+  },
+  "dependencies": {
+    "http-status": "^1.5.2",
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "koa-compress": "^5.1.0",
+    "koa-helmet": "^6.1.0",
+    "koa-router": "^12.0.0",
+    "koa-server-push": "^0.1.0",
+    "koa-session": "^6.2.0",
+    "moment-timezone": "^0.5.34",
+    "npm": "^8.17.0",
+    "rate-limiter-flexible": "^2.3.8",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.21.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-eslint-plugin": "^5.0.2",
+    "nodemon": "^2.0.19"
+  }
+}
